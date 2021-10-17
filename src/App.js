@@ -1,25 +1,68 @@
-import logo from './logo.svg';
-import './App.css';
+import styled from "styled-components";
+import Header from "./Components/Header";
+import Profile from "./Components/Profile";
+import Welcome from "./Components/Welcome";
+import Interests from "./Components/Interests";
+import Skills from "./Components/Skills";
+import Facts from "./Components/Facts";
+import Portfolio from "./Components/Portfolio";
+import Xing from "./Components/Xing";
+import Github from "./Components/Github";
+import LinkToLakritzelHomepage from "./Components/LinkToLakritzelHomepage";
+import BlogText from "./Components/BlogText";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Header />
+      <Profile />
+      <Welcome />
+      <Interests />
+      <Skills />
+      <Facts />
+      <Portfolio />
+      <Xing />
+      <Github />
+      <LinkToLakritzelHomepage />
+      <BlogText />
+      <Footer />
+    </Container>
   );
 }
+
+const Container = styled.div`
+  margin: 0 auto;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+    "head head head head"
+    "profileArea welcome welcome welcome"
+    "profileArea interests skills portfolio"
+    "facts xing github lakritzelHomepage"
+    "facts blogText blogText blogText"
+    "footer footer footer footer";
+  grid-gap: 0.2rem;
+  text-align: center;
+  font-family: "PT Serif", serif;
+
+  @media only screen and (max-width: 800px) {
+    grid-template-areas:
+      "head"
+      "profileArea"
+      "welcome"
+      "interests"
+      "skills"
+      "portfolio"
+      "facts"
+      "xing"
+      "github"
+      "lakritzelHomepage"
+      "blogText"
+      "footer";
+
+    width: 375px;
+  }
+`;
 
 export default App;
