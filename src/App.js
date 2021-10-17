@@ -34,6 +34,7 @@ function App() {
 const Container = styled.div`
   margin: 0 auto;
   width: 100%;
+  height: 100%;
   display: grid;
   grid-template-areas:
     "head head head head"
@@ -46,7 +47,9 @@ const Container = styled.div`
   text-align: center;
   font-family: "PT Serif", serif;
 
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 850px) {
+    width: 375px;
+    grid-gap: 5px;
     grid-template-areas:
       "head"
       "profileArea"
@@ -60,8 +63,6 @@ const Container = styled.div`
       "lakritzelHomepage"
       "blogText"
       "footer";
-
-    width: 375px;
   }
 `;
 
