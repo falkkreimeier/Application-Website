@@ -1,38 +1,58 @@
-import styled from "styled-components";
-import { Headline } from "./Profile";
+import styled from "styled-components/macro";
+import klecks from "../Assets/Kleckse_clean.jpg";
 
 function Welcome() {
   return (
     <Wrapper>
-      <Headline>Oh, ein Gast!</Headline>
+      <Headline>Der Mensch hinter dem Monster</Headline>
       <Text>
-        Schön, Sie/Dich kennen zu lernen ... ähh... oder besser gesagt andersrum
-        – und damit Herzlich Willkommen! Ich bin Falk, Programmierer,
-        Werbetexter, Kaufmann und Schnaps-Dealer. Man könnte sagen, ich habe
-        viele Seiten, und das hier ist eine davon. <br /> <br />
-        Lakritzel.com, die App und diese Unterseite habe ich komplett
-        programmiert und bekritzelt ... textet. Das Zeichnen gehört leider nicht
-        zu meinen Stärken, aber dafür kenne ich viele talentierte Art-Directoren
-        und Illiustratoren. Wer jetzt denkt: "Sieht geil aus, will ich auch!"
-        Unten steht meine Telefonnummer – Einfach anrufen, ich mach das.
+        Hi, ich bin Falk, Programmierer, Werbexter und Weltenretter, denn ich
+        habe Lakritzel gefangen. <br />
+        Das übergeschnapste Tröpfchen raubt unschuldigen Seelen den Verstand,
+        lässt sie auf Tischen tanzen, und berauschende Gespräche über das Leben
+        führen.
+        <br />
+        Diese und viele andere meiner vermeintlichen Heldentaten findet ihr
+        hier.
       </Text>
     </Wrapper>
   );
 }
 
 const Wrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: white;
   grid-area: welcome;
+  background-color: white;
+  color: black;
   border-radius: var(--border-radius);
   padding: var(--main-padding);
+  @media only screen and (max-width: 800px) {
+    min-height: 352px;
+    background-color: white;
+    color: white;
+    background-image: url(${klecks});
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 21rem;
+  }
 `;
 
 export const Text = styled.p`
-  margin: 0px 0px 20px 0px;
-  font-family: "Inter", sans-serif;
+  font-size: 13px;
+
+  font-family: var(--main-font);
+  @media only screen and (max-width: 800px) {
+    margin: 0px 20px 20px 20px;
+  }
+`;
+const Headline = styled.h2`
+  font-family: var(--main-Headline);
+  text-align: center;
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+  @media only screen and (max-width: 800px) {
+    margin: 0px 20px 20px 20px;
+    color: black;
+  }
 `;
 
 export default Welcome;

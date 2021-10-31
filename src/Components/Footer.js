@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import Phone from "../img/phone_white_24dp.svg";
-import Mail from "../img/email_white_24dp.svg";
+import Phone from "../Assets/phone_white_24dp.svg";
+import Mail from "../Assets/email_white_24dp.svg";
 
 function Footer() {
   return (
@@ -21,9 +21,10 @@ const Wrapper = styled.footer`
   background: black;
   color: white;
   grid-area: footer;
-  border-radius: var(--border-radius);
+  background: white;
+  color: black;
+  border-radius: 5px;
   padding: var(--main-padding);
-  margin-top: 0.5rem;
 
   @media only screen and (max-width: 375px) {
     max-width: 375px;
@@ -34,7 +35,7 @@ const Text = styled.p`
   font-family: "Inter", sans-serif;
 
   @media only screen and (max-width: 800px) {
-    font-size: 12px;
+    font-size: 10px;
   }
 `;
 const Icons = styled.img`

@@ -1,8 +1,7 @@
-import styled from "styled-components";
-import { Headline } from "./Profile";
-import Video from "../img/Profile_Video.mp4";
-import Portfolioimg from "../img/Portfolio.png";
-import PortfolioDatei from "../img/Portfolio-komprimiert Kopie.pdf";
+import styled from "styled-components/macro";
+import Video from "../Assets/Profile_Video.mp4";
+import Portfolioimg from "../Assets/Portfolio.png";
+import PortfolioDatei from "../Assets/Portfolio-komprimiert Kopie.pdf";
 
 function Portfolio() {
   return (
@@ -14,48 +13,50 @@ function Portfolio() {
           alt="Werbung für Andros, eine vegane Joghurtalternative"
         />
       </a>
-      <div>
-        <a href={PortfolioDatei}>
-          <Button>Portfolio</Button>
-        </a>
-      </div>
+      <LinkContainer>
+        <Link href={PortfolioDatei}>Portfolio</Link>
+      </LinkContainer>
     </Wrapper>
   );
 }
 
 const Wrapper = styled.div`
   grid-area: portfolio;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   background: white;
-  grid-area: portfolio;
   border-radius: var(--border-radius);
   padding: var(--main-padding);
   min-width: var(--main-width);
 `;
 
-export const Button = styled.button`
-  min-width: 130px;
-  height: 30px;
+const Headline = styled.h2`
+  font-family: var(--main-Headline);
+`;
+
+const LinkContainer = styled.div`
+  margin: 5px auto;
+  width: 130px;
   text-decoration: none;
   border: 1px solid black;
   padding: var(--main-padding);
-  margin: 0 0 20px 0;
-  border-radius: 40px 40px 40px 40px;
-  background-color: white;
-  font-family: "Inter", sans-serif;
-  color: black;
-  box-shadow: 5px 5px 10px 5px black;
-  &:hover {
-    background-color: black;
-    box-shadow: 0px 0px 5px 5px grey;
-    color: white;
+  border-radius: 40px;
+  background-color: black;
+  font-family: var(--main-font);
+  box-shadow: 0 14px 8px rgba(0, 0, 0, 0.25);
+  transform: translateY(-4px);
+  &:active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+    transform: translateY(-0px);
+    transition: 0.1s;
   }
 `;
 
+const Link = styled.a`
+  color: white;
+  text-decoration: none;
+`;
+
 const Image = styled.img`
-  max-height: 5rem;
+  max-height: 90px;
   margin: 0px 0px 15px 0px;
 `;
 

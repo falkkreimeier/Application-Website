@@ -1,21 +1,16 @@
-import styled from "styled-components";
-import Xingimg from "../Assets/xing.svg";
+import styled from "styled-components/macro";
+import linkedInimg from "../Assets/linkedin.svg";
 
-function Xing() {
+function LinkedIn() {
   return (
-    <Wrapper href="https://www.xing.com/profile/falk_kreimeier">
-      <Img src={Xingimg} alt="Mein Xing Profil" />
+    <Wrapper href="https://www.linkedin.com/in/falk-kreimeier-95b7ba221/">
+      <Img src={linkedInimg} alt="LinkedIn Seite" />
     </Wrapper>
   );
 }
 
-export const Img = styled.img`
-  position: sticky;
-  height: 40px;
-`;
-
 const Wrapper = styled.a`
-  grid-area: xing;
+  grid-area: linkedin;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,4 +28,9 @@ const Wrapper = styled.a`
   }
 `;
 
-export default Xing;
+const Img = styled.img`
+  position: sticky;
+  height: 30.4px;
+`;
+
+export default LinkedIn;

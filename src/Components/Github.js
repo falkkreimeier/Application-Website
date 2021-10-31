@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import Githubimg from "../img/github.svg.png";
+import styled from "styled-components/macro";
+import Githubimg from "../Assets/github.svg.png";
 
 function Github() {
   return (
@@ -11,20 +11,22 @@ function Github() {
 
 export const Img = styled.img`
   position: sticky;
-  height: 4rem;
+  height: 64px;
 `;
 
 const Wrapper = styled.a`
   grid-area: github;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background: white;
   border-radius: var(--border-radius);
-  min-width: var(--main-width);
   padding: 10px;
+  margin-top: 5px;
+  transform: translateY(-4px);
   &:hover {
-    background: #d4d4d4;
+    background-color: lightgrey;
+  }
+  &:active {
+    transform: translateY(-0px);
+    transition: 0.1s;
   }
 `;
 

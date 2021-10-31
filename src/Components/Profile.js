@@ -1,5 +1,5 @@
-import Kritzelkopf from "../img/Profil.JPG";
-import styled from "styled-components";
+import Kritzelkopf from "../Assets/Profil.JPG";
+import styled from "styled-components/macro";
 
 function Profile() {
   return (
@@ -11,30 +11,29 @@ function Profile() {
 }
 
 const Wrapper = styled.div`
-  grid-area: profileArea;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  grid-area: profile;
+  margin: 0 auto;
   background: white;
-  border-radius: var(--border-radius);
   padding: var(--main-padding);
+  border-radius: var(--border-radius);
+  @media only screen and (max-width: 800px) {
+    width: 420px;
+  }
 `;
 
 export const Headline = styled.h2`
-  font-family: "Playfair Display", serif;
+  font-family: var(--main-Headline);
   font-weight: 600;
   text-align: center;
   font-size: 1.3rem;
   padding-bottom: 10px;
   margin: 10px 0px 5px 0px;
   text-decoration: none;
-  color: #58555a;
 `;
 
 const StyledProfileImage = styled.img`
   position: sticky;
-  height: 20rem;
+  height: 320px;
   padding: 0px;
 `;
 

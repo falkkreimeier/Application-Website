@@ -1,39 +1,45 @@
-import styled from "styled-components";
-import { Headline } from "./Profile";
+import styled from "styled-components/macro";
 
 function Interests() {
   return (
     <Wrapper>
       <Headline>Interessen</Headline>
-      <Ol>
-        <List>Programmieren</List>
-        <List>Bücher (Fantasy)</List>
-        <List>Gaming</List>
-        <List>Neue Dinge erfinden, z.B. Lakritzel</List>
-        <List>Hanteln schubsen</List>
-        <List>Schreiben/Texten</List>
-      </Ol>
+      <List>
+        <ListItem>Programmieren</ListItem>
+        <ListItem>Bücher (Fantasy)</ListItem>
+        <ListItem>Gaming</ListItem>
+        <ListItem>Neue Dinge erfinden, z.B. Lakritzel</ListItem>
+        <ListItem>Hanteln schubsen</ListItem>
+        <ListItem>Schreiben/Texten</ListItem>
+      </List>
     </Wrapper>
   );
 }
 
 const Wrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  background: white;
   grid-area: interests;
+  background: white;
   border-radius: var(--border-radius);
   padding: var(--main-padding);
+  /* @media only screen and (max-width: 800px) {
+    width: var(--main-width);
+  } */
 `;
 
-export const List = styled.li`
+const Headline = styled.h2`
+  font-family: var(--main-Headline);
+  margin-top: 10px;
+  font-size: 1.3rem;
+`;
+
+const List = styled.ol`
+  margin: -10px 0 10px 0px;
+`;
+
+const ListItem = styled.li`
   text-align: left;
-  font-family: "Inter", sans-serif;
-`;
-
-export const Ol = styled.ol`
-  padding: 5px 0px 0px 35px;
-  margin: 0;
+  font-family: var(--main-font);
+  margin-left: 20px;
 `;
 
 export default Interests;

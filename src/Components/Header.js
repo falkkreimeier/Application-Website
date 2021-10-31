@@ -9,10 +9,10 @@ function Header() {
 }
 
 const StyledHeader = styled.header`
-  grid-area: head;
-  background: black;
-  color: white;
-  border-radius: var(--border-radius);
+  grid-area: header;
+  background: white;
+  color: black;
+  border-radius: 5px;
   padding: var(--main-padding);
 `;
 
@@ -24,7 +24,6 @@ const StyledHeadline = styled.h1`
   padding-bottom: 10px;
   margin: 0px 0px 2px 0px;
   text-decoration: none;
-  color: white;
 `;
 
 export default Header;
