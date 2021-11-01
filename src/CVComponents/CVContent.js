@@ -49,16 +49,10 @@ function CVContent() {
       <Text>
         Feb 2017 - Jan 2020
         <List>
+          <ListItem>Ermittlung von Benutzeranforderungen</ListItem>
+          <ListItem>Planen und Erstellen von Anwendungslösungen</ListItem>
           <ListItem>
-            Betreuung und Kampagnenentwicklung für große Foodmarken, wie:
-            COPPENRATH & WIESE, MILRAM, REINERT uvm.
-          </ListItem>
-          <ListItem>
-            Von der Ideenentwicklung, Präsentationsaufbau, Kundenpräsentation
-            und finalen Umsetzung
-          </ListItem>
-          <ListItem>
-            TV Erfahrung: Idee, Storyboard, Präsentation und Dreh
+            Einkaufspreise einholen, Verkaufsangebote erstellen
           </ListItem>
           <ListItem>Verpackungsdruck</ListItem>
           <ListItem>

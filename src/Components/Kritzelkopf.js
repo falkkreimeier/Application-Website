@@ -11,10 +11,11 @@ import LinkedIn from "./LinkedIn";
 import TechStack from "./TechStack";
 import Footer from "./Footer";
 import LinkToCV from "./LinkToCV";
+import styled from "styled-components";
 
 function Kritzelkopf() {
   return (
-    <>
+    <Container>
       <Header />
       <Profile />
       <Welcome />
@@ -28,8 +29,44 @@ function Kritzelkopf() {
       <Github />
       <LinkedIn />
       <Footer />
-    </>
+    </Container>
   );
 }
+
+const Container = styled.div`
+  margin: 0 auto;
+  height: 100vh;
+  max-width: 1000px;
+  display: grid;
+  grid-template-areas:
+    "header header header header"
+    "profile welcome welcome welcome"
+    "profile interests skills portfolio"
+    "facts xing github linkedin"
+    "facts techstack linktocv linktocv"
+    "footer footer footer footer";
+  grid-gap: 0.2rem;
+  text-align: center;
+  font-family: "PT Serif", serif;
+
+  @media only screen and (max-width: 800px) {
+    width: 375px;
+    grid-gap: 5px;
+    grid-template-areas:
+      "header"
+      "profile"
+      "welcome"
+      "interests"
+      "facts"
+      "skills"
+      "portfolio"
+      "cv"
+      "techstack"
+      "xing"
+      "github"
+      "linkedin"
+      "footer";
+  }
+`;
 
 export default Kritzelkopf;

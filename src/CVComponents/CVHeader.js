@@ -23,12 +23,14 @@ const Header = styled.div`
 const Headline = styled.h2`
   font-family: var(--main-Headline);
   font-size: 2rem;
+  margin-left: 70px;
 `;
 
 const Text = styled.p`
   margin-top: -30px;
   font-family: var(--main-font);
   font-size: 1.1rem;
+  margin-left: 70px;
 `;
 
 export default CVHeader;

@@ -56,7 +56,7 @@ function CVSkillList() {
         MongoDB <br />
         <DotsBlack />
         <DotsBlack />
-        <DotsBlack />
+        <Dots />
         <Dots />
         <Dots />
       </ListItems>
@@ -64,7 +64,7 @@ function CVSkillList() {
         ExpressJS <br />
         <DotsBlack />
         <DotsBlack />
-        <DotsBlack />
+        <Dots />
         <Dots />
         <Dots />
       </ListItems>

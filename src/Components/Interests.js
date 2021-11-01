@@ -21,9 +21,6 @@ const Wrapper = styled.div`
   background: white;
   border-radius: var(--border-radius);
   padding: var(--main-padding);
-  /* @media only screen and (max-width: 800px) {
-    width: var(--main-width);
-  } */
 `;
 
 const Headline = styled.h2`
