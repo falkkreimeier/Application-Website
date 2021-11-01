@@ -1,10 +1,19 @@
 import Kritzelkopf from "./Components/Kritzelkopf";
 import styled from "styled-components";
+import CVPageOne from "./CVPageOne";
+import { Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <Container>
-      <Kritzelkopf />
+      <Switch>
+        <Route exact path="/">
+          <Kritzelkopf />
+        </Route>
+        <Route exact path="/lebenslauf">
+          <CVPageOne />
+        </Route>
+      </Switch>
     </Container>
   );
 }
@@ -19,7 +28,7 @@ const Container = styled.div`
     "profile welcome welcome welcome"
     "profile interests skills portfolio"
     "facts xing github linkedin"
-    "facts techstack cv cv"
+    "facts techstack linktocv linktocv"
     "footer footer footer footer";
   grid-gap: 0.2rem;
   text-align: center;

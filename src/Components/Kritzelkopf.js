@@ -1,4 +1,3 @@
-import styled from "styled-components/macro";
 import Header from "./Header";
 import Profile from "./Profile";
 import Welcome from "./Welcome";
@@ -11,7 +10,7 @@ import Github from "./Github";
 import LinkedIn from "./LinkedIn";
 import TechStack from "./TechStack";
 import Footer from "./Footer";
-import CV from "./CV";
+import LinkToCV from "./LinkToCV";
 
 function Kritzelkopf() {
   return (
@@ -24,7 +23,7 @@ function Kritzelkopf() {
       <Facts />
       <Portfolio />
       <TechStack />
-      <CV />
+      <LinkToCV />
       <Xing />
       <Github />
       <LinkedIn />
