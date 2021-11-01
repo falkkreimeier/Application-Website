@@ -10,10 +10,8 @@ function Welcome() {
         meinen Job!", lügt. <br /> <br />
         Ich habe mich geirrt, denn ich bin ins kalte Wasser gesprungen und im
         Talentpool von neuefische gelandet. Hier habe ich das Programmieren für
-        mich entdeckt, und auch, wenn ich noch ein kleiner Fisch bin.
-        <br />
-        <br />
-        Ich möchte in meinem Leben nichts anderes mehr machen.
+        mich entdeckt, und auch, wenn ich noch ein kleiner Pro±grammier-Fisch
+        bin – Ich möchte in meinem Leben nichts anderes mehr machen.
       </Text>
     </Wrapper>
   );
