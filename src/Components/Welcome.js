@@ -6,14 +6,14 @@ function Welcome() {
     <Wrapper>
       <Headline>Der Mensch hinter dem Monster</Headline>
       <Text>
-        Hi, ich bin Falk, Programmierer, Werbexter und Weltenretter, denn ich
-        habe Lakritzel gefangen. <br />
-        Das übergeschnapste Tröpfchen raubt unschuldigen Seelen den Verstand,
-        lässt sie auf Tischen tanzen, und berauschende Gespräche über das Leben
-        führen.
+        40 lange Jahre habe ich geglaubt, dass jeder, der sagt: "Ich liebe
+        meinen Job!", lügt. <br /> <br />
+        Ich habe mich geirrt, denn ich bin ins kalte Wasser gesprungen und im
+        Talentpool von neuefische gelandet. Hier habe ich das Programmieren für
+        mich entdeckt, und auch, wenn ich noch ein kleiner Fisch bin.
         <br />
-        Diese und viele andere meiner vermeintlichen Heldentaten findet ihr
-        hier.
+        <br />
+        Ich möchte in meinem Leben nichts anderes mehr machen.
       </Text>
     </Wrapper>
   );
@@ -38,20 +38,22 @@ const Wrapper = styled.div`
 
 export const Text = styled.p`
   font-size: 13px;
-
   font-family: var(--main-font);
+  margin: -10px 20px 20px 20px;
   @media only screen and (max-width: 800px) {
-    margin: 0px 20px 20px 20px;
+    margin: -10px 20px 20px 20px;
+    padding: 0 40px;
   }
 `;
+
 const Headline = styled.h2`
   font-family: var(--main-Headline);
   text-align: center;
   font-size: 1.2rem;
   padding-bottom: 10px;
   @media only screen and (max-width: 800px) {
-    margin: 0px 20px 20px 20px;
-    color: black;
+    margin: 35px 20px 20px 20px;
+    color: white;
   }
 `;
 

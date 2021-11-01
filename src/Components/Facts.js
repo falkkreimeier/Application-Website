@@ -54,6 +54,9 @@ const ListItem = styled.li`
   text-align: left;
   font-family: var(--main-font);
   margin-left: 20px;
+  @media only screen and (max-width: 800px) {
+    margin-left: 50px;
+  }
 `;
 
 export default Facts;
