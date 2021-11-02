@@ -12,7 +12,6 @@ function Profile() {
 
 const Wrapper = styled.div`
   grid-area: profile;
-  margin: 0 auto;
   background: white;
   padding: var(--main-padding);
   border-radius: var(--border-radius);

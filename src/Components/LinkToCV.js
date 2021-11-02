@@ -18,7 +18,6 @@ function LinkToCV() {
 }
 
 const Wrapper = styled.section`
-  margin-top: -3px;
   grid-area: linktocv;
   border-radius: var(--border-radius);
   background-color: white;

@@ -45,13 +45,13 @@ const Container = styled.div`
     "facts xing github linkedin"
     "facts techstack linktocv linktocv"
     "footer footer footer footer";
-  grid-gap: 0.2rem;
+  grid-gap: 2px;
   text-align: center;
   font-family: "PT Serif", serif;
 
   @media only screen and (max-width: 800px) {
     width: 375px;
-    grid-gap: 5px;
+    grid-gap: 2px;
     grid-template-areas:
       "header"
       "profile"

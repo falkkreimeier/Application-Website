@@ -4,14 +4,15 @@ import klecks from "../Assets/Kleckse_clean.jpg";
 function Welcome() {
   return (
     <Wrapper>
-      <Headline>Der Mensch hinter dem Monster</Headline>
+      <Headline>Kleine Fische, große Wirkung.</Headline>
       <Text>
         40 lange Jahre habe ich geglaubt, dass jeder, der sagt: "Ich liebe
         meinen Job!", lügt. <br /> <br />
-        Ich habe mich geirrt, denn ich bin ins kalte Wasser gesprungen und im
-        Talentpool von neuefische gelandet. Hier habe ich das Programmieren für
-        mich entdeckt, und auch, wenn ich noch ein kleiner Pro±grammier-Fisch
-        bin – Ich möchte in meinem Leben nichts anderes mehr machen.
+        Ich habe mich geirrt, denn ich bin mal wieder ins kalte Wasser
+        gesprungen und im Talentpool von neuefische gelandet.
+        <br /> <br /> Hier habe ich das Programmieren für mich entdeckt, und
+        auch wenn ich noch ein kleiner Programmier-Fisch bin – bald möchte ich
+        als riesen Pottwal die 7-Quellcode Weltmeere erobern.
       </Text>
     </Wrapper>
   );

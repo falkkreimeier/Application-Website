@@ -31,7 +31,6 @@ const Wrapper = styled.footer`
   }
 `;
 const Text = styled.p`
-  margin: 0;
   font-family: "Inter", sans-serif;
 
   @media only screen and (max-width: 800px) {

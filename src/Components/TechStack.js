@@ -6,22 +6,24 @@ function TechStack() {
     <Wrapper>
       <Headline>TechStack</Headline>
       <List>
-        <ListItem>HTML</ListItem>
-        <ListItem>CSS</ListItem>
+        <ListItem>CSS3</ListItem>
         <ListItem>React</ListItem>
         <ListItem>JavaScript</ListItem>
         <ListItem>Node.js</ListItem>
         <ListItem>ExpressJS</ListItem>
         <ListItem>MongoDB</ListItem>
         <ListItem>Git & GitHub</ListItem>
-        <ListItem>Figma</ListItem>
+        <ListItem>React-Testing-Library</ListItem>
+        <ListItem>Storybook</ListItem>
+        <ListItem>Vercel</ListItem>
+        <ListItem>VS Code </ListItem>
+        <ListItem>Mongoose</ListItem>
       </List>
     </Wrapper>
   );
 }
 
 const Wrapper = styled.div`
-  margin-top: -3px;
   grid-area: techstack;
   background-color: white;
   color: black;
@@ -49,12 +51,13 @@ const Headline = styled.h2`
 const List = styled.ol`
   @media only screen and (max-width: 800px) {
     padding: 5px 0px 0px 35px;
-    margin: -5px 0 20px 100px;
+    margin: -20px 0 20px 100px;
   }
 `;
 
 const ListItem = styled.li`
   text-align: left;
+
   font-family: var(--main-font);
 `;
 
