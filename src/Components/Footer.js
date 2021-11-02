@@ -31,10 +31,9 @@ const Wrapper = styled.footer`
   }
 `;
 const Text = styled.p`
-  font-family: "Inter", sans-serif;
-
+  font-family: var(--main-font);
   @media only screen and (max-width: 800px) {
-    font-size: 10px;
+    font-size: 13px;
   }
 `;
 const Icons = styled.img`
