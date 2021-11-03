@@ -45,6 +45,7 @@ const Headline = styled.h2`
 `;
 
 const Text = styled.p`
+  font-size: 17px;
   padding: 20px;
   font-family: var(--main-font);
   @media only screen and (max-width: 800px) {

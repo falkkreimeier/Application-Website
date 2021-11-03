@@ -36,6 +36,7 @@ const Wrapper = styled.div`
 `;
 
 export const Text = styled.p`
+  font-size: 17px;
   font-family: var(--main-font);
   margin: -10px 20px 20px 20px;
   @media only screen and (max-width: 800px) {
