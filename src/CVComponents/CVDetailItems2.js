@@ -3,8 +3,10 @@ import styled from "styled-components/macro";
 function CVDetailItems2() {
   return (
     <>
-      <Headline>Weiterbildung und Schule</Headline>
-      <SubHeadline> Diplom Copywriter, Kreativkader</SubHeadline>
+      <Headline>Bildung</Headline>
+      <SubHeadline>
+        Diplom Copywriter, <br /> Kreativkader
+      </SubHeadline>
       <Text>
         Sep 2014 - Sep 2015 <br /> Duale Ausbildung/Studium zum Werbetexter
       </Text>
@@ -17,6 +19,7 @@ function CVDetailItems2() {
 }
 
 const SubHeadline = styled.h2`
+  line-height: 1.2;
   text-align: left;
   margin: 0 0 -10px 20px;
   width: 300px;
@@ -28,12 +31,13 @@ const Headline = styled.h2`
   text-align: left;
   border-bottom: 1px solid black;
   margin-left: 20px;
-  font-size: 0.8em;
+  font-size: 0.7em;
+  width: 80px;
 `;
 
 const Text = styled.p`
   text-align: left;
-  padding: 0px 15px 0px 20px;
+  padding: 0px 20px 0px 20px;
   font-size: 0.5rem;
 `;
 

@@ -18,6 +18,7 @@ const Headline = styled.h2`
   border-bottom: 1px solid black;
   margin-left: 20px;
   font-size: 0.8em;
+  width: 80px;
 `;
 
 const Text = styled.p`
