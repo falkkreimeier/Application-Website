@@ -6,6 +6,7 @@ function TechStack() {
     <Wrapper>
       <Headline>TechStack</Headline>
       <List>
+        <ListItem>HTML5</ListItem>
         <ListItem>CSS3</ListItem>
         <ListItem>React</ListItem>
         <ListItem>JavaScript</ListItem>
@@ -37,6 +38,7 @@ const Wrapper = styled.div`
     background-position: center;
     background-repeat: no-repeat;
     background-size: 21rem;
+    font-size: 14px;
   }
 `;
 

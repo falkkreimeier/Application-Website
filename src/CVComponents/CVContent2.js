@@ -10,7 +10,7 @@ function CVContent2() {
         Aug 2014 - Okt 2016
         <List>
           <ListItem>
-            Kampagnenentwikclung Print/Funk/Social Media für Marken, wie:
+            Kampagnenentwicklung Print/Funk/Social Media für Marken, wie:
             CITROEN, CAR2GO und die DEUTSCHE BANK
           </ListItem>
           <ListItem>
@@ -26,13 +26,13 @@ function CVContent2() {
       <Text>
         Okt 2001 - Apr 2003
         <List>
-          <ListItem>Mitartbeiterführung, Personalmanagement</ListItem>
+          <ListItem>Mitarbeiterführung, Personalmanagement</ListItem>
           <ListItem>Fuhrparkplanung und Disposition</ListItem>
-          <ListItem>Neukundenaquise und Kundenbetreuung</ListItem>
-          <ListItem>Umsatz und Budjetverantwortung</ListItem>
+          <ListItem>Neukundenakquise und Kundenbetreuung</ListItem>
+          <ListItem>Umsatz und Budgetverantwortung</ListItem>
           <ListItem>
-            Operatives Geschäft (Mietvertragerstellung, Schadensaufnahme,
-            Schadensmanagement
+            Operatives Geschäft (Mietvertragserstellung, Schadensaufnahme,
+            Schadensmanagement)
           </ListItem>
         </List>
       </Text>
@@ -45,7 +45,7 @@ function CVContent2() {
           <ListItem>Ermittlung von Benutzeranforderungen</ListItem>
           <ListItem>Planen und Erstellen von Anwendungslösungen</ListItem>
           <ListItem>
-            Einkaufpreise einholen und Verkaufsangebote erstellen
+            Einkaufspreise einholen und Verkaufsangebote erstellen
           </ListItem>
           <ListItem>Kundenberatung</ListItem>
         </List>

@@ -9,7 +9,7 @@ function Facts() {
         <ListItem>41 Jahre jung</ListItem>
         <ListItem>1,93m klein</ListItem>
         <ListItem>Hoffnungsloser Optimist</ListItem>
-        <ListItem>Philantrop</ListItem>
+        <ListItem>Philanthrop</ListItem>
         <ListItem>
           Voll auf Spur, aber immer auch ein kleines bisschen daneben.
         </ListItem>

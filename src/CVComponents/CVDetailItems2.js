@@ -4,7 +4,7 @@ function CVDetailItems2() {
   return (
     <>
       <Headline>Weiterbildung und Schule</Headline>
-      <SubHeadline> Diplom Copywriter, Kretivkader</SubHeadline>
+      <SubHeadline> Diplom Copywriter, Kreativkader</SubHeadline>
       <Text>
         Sep 2014 - Sep 2015 <br /> Duale Ausbildung/Studium zum Werbetexter
       </Text>
