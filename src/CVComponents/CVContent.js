@@ -68,7 +68,7 @@ function CVContent() {
 
 const Headline = styled.h2`
   text-align: left;
-  margin: -2px 0px 0px 10px;
+  margin: 0px 0px 0px 10px;
   font-size: 0.9rem;
   font-family: var(--main-Headline);
   border-bottom: 1px solid black;
