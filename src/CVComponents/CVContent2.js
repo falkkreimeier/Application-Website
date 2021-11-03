@@ -2,7 +2,7 @@ import styled from "styled-components/macro";
 
 function CVContent2() {
   return (
-    <Wrapper>
+    <>
       <SubHeadline>
         Trainee und Junior Copywriter, TBWA Düsseldorf | <br /> HAVAS Worldwide
       </SubHeadline>
@@ -50,11 +50,9 @@ function CVContent2() {
           <ListItem>Kundenberatung</ListItem>
         </List>
       </Text>
-    </Wrapper>
+    </>
   );
 }
-
-const Wrapper = styled.section``;
 
 const SubHeadline = styled.h2`
   text-align: left;
