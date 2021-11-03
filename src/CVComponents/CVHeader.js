@@ -21,16 +21,19 @@ const HeaderEl = styled.div`
 `;
 
 const Headline = styled.h2`
+  position: relative;
+  left: 60px;
+  bottom: 10px;
   font-family: var(--main-Headline);
   font-size: 2rem;
-  margin-left: 60px;
 `;
 
 const Text = styled.p`
-  margin-top: -30px;
+  position: relative;
+  left: 60px;
+  bottom: 50px;
   font-family: var(--main-font);
   font-size: 1.1rem;
-  margin-left: 60px;
 `;
 
 export default CVHeader;
