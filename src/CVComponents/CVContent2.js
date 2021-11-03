@@ -56,14 +56,6 @@ function CVContent2() {
 
 const Wrapper = styled.section``;
 
-const Headline = styled.h2`
-  text-align: left;
-  margin: -2px 0px 0px 10px;
-  font-size: 0.9rem;
-  font-family: var(--main-Headline);
-  border-bottom: 1px solid black;
-`;
-
 const SubHeadline = styled.h2`
   text-align: left;
   margin: 5px 0px 0px 10px;
