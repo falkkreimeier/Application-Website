@@ -28,6 +28,9 @@ const Wrapper = styled.section`
   display: grid;
   grid-gap: 0px;
   grid-template-areas: "details content2";
+  @media only screen and (max-width: 400px) {
+    max-width: 375px;
+  }
 `;
 
 const Details = styled.div`
