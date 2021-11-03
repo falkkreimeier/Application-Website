@@ -3,6 +3,22 @@ import styled from "styled-components/macro";
 function CVContent2() {
   return (
     <>
+      <SubHeadline>Copywriter, Brand Lounge GmbH</SubHeadline>
+      <Text>
+        Feb 2017 - Jan 2020
+        <List>
+          <ListItem>Ermittlung von Benutzeranforderungen</ListItem>
+          <ListItem>Planen und Erstellen von Anwendungslösungen</ListItem>
+          <ListItem>
+            Einkaufspreise einholen, Verkaufsangebote erstellen
+          </ListItem>
+          <ListItem>Verpackungsdruck</ListItem>
+          <ListItem>
+            Funk-Erfahrung: Idee, Sprechercasting, Produktion im Studio
+          </ListItem>
+        </List>
+      </Text>
+
       <SubHeadline>
         Trainee und Junior Copywriter, TBWA Düsseldorf | <br /> HAVAS Worldwide
       </SubHeadline>

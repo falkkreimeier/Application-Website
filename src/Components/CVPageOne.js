@@ -60,7 +60,7 @@ const Content = styled.div`
 
 const LinkToPageTwo = styled(Link)`
   position: relative;
-  bottom: 5px;
+  top: 80px;
   left: 230px;
   padding: 0 5px 0 5px;
   text-decoration: none;
@@ -81,8 +81,8 @@ const LinkToPageTwo = styled(Link)`
 
 const LinkToMainPage = styled(Link)`
   position: relative;
-  bottom: 20px;
-  left: 10px;
+  bottom: 34px;
+  left: 240px;
   width: 100px;
   text-align: center;
   text-decoration: none;

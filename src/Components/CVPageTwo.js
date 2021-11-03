@@ -51,7 +51,7 @@ const Content = styled.div`
 
 const LinkToPageOne = styled(Link)`
   position: relative;
-  top: 260px;
+  top: 140px;
   left: 250px;
   text-decoration: none;
   color: white;
