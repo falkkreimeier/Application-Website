@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components/macro";
 import Profilimg from "../Assets/Profilbild.jpg";
 import CVSkillList from "../CVComponents/CVSkillList";
 import CVDetailItems from "../CVComponents/CVDetailItems";
@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 function CVPageOne() {
   return (
     <Wrapper>
-      <LinkToMainPage to="/">Zurück</LinkToMainPage>
+      <LinkToMainPage to="/">Hauptseite</LinkToMainPage>
       <Details>
         <Image src={Profilimg} alt="" />
         <DetailItemsContainer>
@@ -28,20 +28,15 @@ function CVPageOne() {
 }
 
 const Wrapper = styled.section`
+  max-width: 430px;
   margin: 0 auto;
   background-color: black;
   display: grid;
-  max-width: 510px;
   grid-template-areas: "details content1";
-  background-color: white;
-  height: 720px;
-  width: 100%;
 `;
 
 const Details = styled.div`
   margin: 0 auto;
-  width: 200px;
-  height: 720px;
   grid-area: details;
   border-radius: var(border-radius);
   background-color: lightgrey;
@@ -52,24 +47,21 @@ const DetailItemsContainer = styled.div`
 `;
 
 const Image = styled.img`
-  margin: 40px 30px 0px 0px;
-  height: 110px;
+  height: 80px;
   border-radius: 50%;
-  margin: 35px 0 -10px 20px;
+  margin: 35px 25px -10px 20px;
 `;
 
 const Content = styled.div`
+  margin-top: -10px;
   background-color: white;
   grid-area: content1;
-  height: 720px;
-  width: 300px;
-  margin-bottom: 25px;
 `;
 
 const LinkToPageTwo = styled(Link)`
   position: relative;
-  top: 10px;
-  left: 200px;
+  bottom: 5px;
+  left: 230px;
   padding: 0 5px 0 5px;
   text-decoration: none;
   color: white;
@@ -89,9 +81,9 @@ const LinkToPageTwo = styled(Link)`
 
 const LinkToMainPage = styled(Link)`
   position: relative;
-  bottom: 735px;
+  bottom: 20px;
   left: 10px;
-  width: 60px;
+  width: 100px;
   text-align: center;
   text-decoration: none;
   color: white;

@@ -1,10 +1,10 @@
-import styled from "styled-components";
+import styled from "styled-components/macro";
 
 function CVContent2() {
   return (
     <Wrapper>
       <SubHeadline>
-        Trainee und Junior Copywriter, TBWA Düsseldorf | HAVAS Worldwide
+        Trainee und Junior Copywriter, TBWA Düsseldorf | <br /> HAVAS Worldwide
       </SubHeadline>
       <Text>
         Aug 2014 - Okt 2016
@@ -20,7 +20,7 @@ function CVContent2() {
       </Text>
 
       <SubHeadline>
-        Filialleiter/Vermietassistent, Car Partner Nord GmbH | Trio
+        Filialleiter/Vermietassistent, Car Partner Nord GmbH | <br /> Trio
         Autovermietung
       </SubHeadline>
       <Text>
@@ -54,13 +54,19 @@ function CVContent2() {
   );
 }
 
-const Wrapper = styled.section`
-  margin-top: 30px;
+const Wrapper = styled.section``;
+
+const Headline = styled.h2`
+  text-align: left;
+  margin: -2px 0px 0px 10px;
+  font-size: 0.9rem;
+  font-family: var(--main-Headline);
+  border-bottom: 1px solid black;
 `;
 
 const SubHeadline = styled.h2`
   text-align: left;
-  margin: 5px 5px 0px 10px;
+  margin: 5px 0px 0px 10px;
   width: 300px;
   font-size: 0.7rem;
   font-family: var(--main-Headline);

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components/macro";
 import Phone from "../Assets/phone_white_24dp.svg";
 import Mail from "../Assets/email_white_24dp.svg";
 

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components/macro";
 
 function CVDetailItems2() {
   return (
@@ -16,20 +16,19 @@ function CVDetailItems2() {
   );
 }
 
-const Headline = styled.h2`
-  text-align: left;
-  border-bottom: 1px solid black;
-  width: 140px;
-  margin-left: 20px;
-  font-size: 0.8em;
-`;
-
 const SubHeadline = styled.h2`
   text-align: left;
   margin: 0 0 -10px 20px;
   width: 300px;
   font-size: 0.7rem;
   font-family: var(--main-Headline);
+`;
+
+const Headline = styled.h2`
+  text-align: left;
+  border-bottom: 1px solid black;
+  margin-left: 20px;
+  font-size: 0.8em;
 `;
 
 const Text = styled.p`

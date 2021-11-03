@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components/macro";
 import Xingimg from "../Assets/xing.svg";
 
 function Xing() {

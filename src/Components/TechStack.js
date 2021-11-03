@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components/macro";
 import klecks from "../Assets/Kleckse_clean.jpg";
 
 function TechStack() {

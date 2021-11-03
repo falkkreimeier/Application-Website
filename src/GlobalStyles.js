@@ -22,6 +22,12 @@ html {
 
 p {
     line-height: 1.5;
+    font-size: 13px;
+}
+
+li {
+    line-height: 1.5;
+    /* font-size: 13px; */
 }
 
 body {

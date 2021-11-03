@@ -11,7 +11,7 @@ import LinkedIn from "./LinkedIn";
 import TechStack from "./TechStack";
 import Footer from "./Footer";
 import LinkToCV from "./LinkToCV";
-import styled from "styled-components";
+import styled from "styled-components/macro";
 
 function Kritzelkopf() {
   return (
