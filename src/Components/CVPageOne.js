@@ -9,7 +9,6 @@ import { Link } from "react-router-dom";
 function CVPageOne() {
   return (
     <Wrapper>
-      <LinkToMainPage to="/">Hauptseite</LinkToMainPage>
       <Details>
         <Image src={Profilimg} alt="" />
         <DetailItemsContainer>
@@ -21,6 +20,7 @@ function CVPageOne() {
       <Content>
         <CVHeader />
         <CVContent />
+        <LinkToMainPage to="/">Hauptseite</LinkToMainPage>
         <LinkToPageTwo to="/lebenslauf2">Seite 2</LinkToPageTwo>
       </Content>
     </Wrapper>
@@ -60,8 +60,8 @@ const Content = styled.div`
 
 const LinkToPageTwo = styled(Link)`
   position: relative;
-  top: 80px;
-  left: 230px;
+  top: 67px;
+  left: 160px;
   padding: 0 5px 0 5px;
   text-decoration: none;
   color: white;
@@ -81,8 +81,8 @@ const LinkToPageTwo = styled(Link)`
 
 const LinkToMainPage = styled(Link)`
   position: relative;
-  bottom: 34px;
-  left: 240px;
+  top: 67px;
+  left: 140px;
   width: 100px;
   text-align: center;
   text-decoration: none;

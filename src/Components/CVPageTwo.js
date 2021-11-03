@@ -24,14 +24,14 @@ const Wrapper = styled.section`
   max-width: 430px;
   margin: 0 auto;
   background-color: black;
-  height: 720px;
+  height: 637px;
   display: grid;
   grid-gap: 0px;
   grid-template-areas: "details content2";
 `;
 
 const Details = styled.div`
-  width: 150px;
+  width: 125px;
   grid-area: details;
   border-radius: var(border-radius);
   background-color: lightgrey;
@@ -45,14 +45,14 @@ const Content = styled.div`
   padding-top: 32px;
   background-color: white;
   grid-area: content2;
-  width: 320px;
+  width: 310px;
   padding-right: 50px;
 `;
 
 const LinkToPageOne = styled(Link)`
   position: relative;
-  top: 140px;
-  left: 250px;
+  top: 45px;
+  left: 240px;
   text-decoration: none;
   color: white;
   width: 130px;
