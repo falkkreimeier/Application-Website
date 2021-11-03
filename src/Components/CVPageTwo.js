@@ -24,7 +24,7 @@ const Wrapper = styled.section`
   max-width: 430px;
   margin: 0 auto;
   background-color: black;
-  height: 637px;
+  height: 643px;
   display: grid;
   grid-gap: 0px;
   grid-template-areas: "details content2";
@@ -51,13 +51,13 @@ const Content = styled.div`
 
 const LinkToPageOne = styled(Link)`
   position: relative;
-  top: 45px;
-  left: 240px;
+  top: 46px;
+  left: 230px;
   text-decoration: none;
   color: white;
   width: 130px;
   border: 1px solid black;
-  padding: 0 5px 0 5px;
+  padding: 0 10px 0 10px;
   border-radius: 40px;
   background-color: black;
   font-family: var(--main-font);
