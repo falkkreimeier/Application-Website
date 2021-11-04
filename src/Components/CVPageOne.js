@@ -33,9 +33,6 @@ const Wrapper = styled.section`
   background-color: black;
   display: grid;
   grid-template-areas: "details content1";
-  @media only screen and (max-width: 400px) {
-    max-width: 375px;
-  }
 `;
 
 const Details = styled.div`
@@ -43,6 +40,10 @@ const Details = styled.div`
   grid-area: details;
   border-radius: var(border-radius);
   background-color: lightgrey;
+  @media only screen and (max-width: 400px) {
+    max-width: 375px;
+    height: 100vh;
+  }
 `;
 
 const DetailItemsContainer = styled.div`
@@ -56,9 +57,12 @@ const Image = styled.img`
 `;
 
 const Content = styled.div`
-  margin-top: -10px;
   background-color: white;
   grid-area: content1;
+  @media only screen and (max-width: 400px) {
+    max-width: 375px;
+    height: 100vh;
+  }
 `;
 
 const LinkToPageTwo = styled(Link)`
