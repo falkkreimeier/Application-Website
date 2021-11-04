@@ -30,6 +30,7 @@ const Wrapper = styled.section`
   grid-template-areas: "details content2";
   @media only screen and (max-width: 400px) {
     max-width: 375px;
+    height: 100vh;
   }
 `;
 

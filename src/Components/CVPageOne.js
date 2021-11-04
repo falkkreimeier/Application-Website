@@ -33,6 +33,10 @@ const Wrapper = styled.section`
   background-color: black;
   display: grid;
   grid-template-areas: "details content1";
+  @media only screen and (max-width: 400px) {
+    max-width: 375px;
+    height: 100vh;
+  }
 `;
 
 const Details = styled.div`
