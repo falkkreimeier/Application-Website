@@ -29,13 +29,13 @@ function CVPageOne() {
 
 const Wrapper = styled.section`
   max-width: 430px;
+  height: 100vh;
   margin: 0 auto;
   background-color: black;
   display: grid;
   grid-template-areas: "details content1";
   @media only screen and (max-width: 400px) {
     max-width: 375px;
-    height: 100vh;
   }
 `;
 
@@ -46,7 +46,6 @@ const Details = styled.div`
   background-color: lightgrey;
   @media only screen and (max-width: 400px) {
     max-width: 375px;
-    height: 100vh;
   }
 `;
 
@@ -65,13 +64,13 @@ const Content = styled.div`
   grid-area: content1;
   @media only screen and (max-width: 400px) {
     max-width: 375px;
-    height: 100vh;
+    height: 100%;
   }
 `;
 
 const LinkToPageTwo = styled(Link)`
   position: relative;
-  top: 67px;
+  top: 80px;
   left: 130px;
   padding: 0 10px 0 10px;
   text-decoration: none;
@@ -92,7 +91,7 @@ const LinkToPageTwo = styled(Link)`
 
 const LinkToMainPage = styled(Link)`
   position: relative;
-  top: 67px;
+  top: 80px;
   left: 120px;
   width: 100px;
   text-align: center;
