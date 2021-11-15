@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components/macro";
 import Xingimg from "../Assets/xing.svg";
 
 function Xing() {
@@ -22,14 +22,16 @@ const Wrapper = styled.a`
   background: white;
   border-radius: var(--border-radius);
   padding: 10px;
-  margin-top: 5px;
-  transform: translateY(-4px);
+  transform: translateY(0px);
   &:hover {
     background-color: lightgrey;
   }
   &:active {
-    transform: translateY(-0px);
+    transform: translateY(4px);
     transition: 0.1s;
+  }
+  @media only screen and (max-width: 800px) {
+    margin-bottom: 0px;
   }
 `;
 

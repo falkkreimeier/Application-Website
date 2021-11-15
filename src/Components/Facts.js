@@ -9,7 +9,7 @@ function Facts() {
         <ListItem>41 Jahre jung</ListItem>
         <ListItem>1,93m klein</ListItem>
         <ListItem>Hoffnungsloser Optimist</ListItem>
-        <ListItem>Philantrop</ListItem>
+        <ListItem>Philanthrop</ListItem>
         <ListItem>
           Voll auf Spur, aber immer auch ein kleines bisschen daneben.
         </ListItem>
@@ -54,6 +54,9 @@ const ListItem = styled.li`
   text-align: left;
   font-family: var(--main-font);
   margin-left: 20px;
+  @media only screen and (max-width: 800px) {
+    margin-left: 50px;
+  }
 `;
 
 export default Facts;

@@ -1,23 +1,26 @@
-import styled from "styled-components";
+import styled from "styled-components/macro";
 
 function Header() {
   return (
-    <StyledHeader>
-      <StyledHeadline>Falk Kreimeier</StyledHeadline>
-    </StyledHeader>
+    <Wrapper>
+      <Headline>Falk Kreimeier</Headline>
+    </Wrapper>
   );
 }
 
-const StyledHeader = styled.header`
+const Wrapper = styled.header`
   grid-area: header;
   background: white;
   color: black;
   border-radius: 5px;
   padding: var(--main-padding);
+  @media only screen and (max-width: 375px) {
+    max-width: 410;
+  }
 `;
 
-const StyledHeadline = styled.h1`
-  font-family: "Playfair Display", serif;
+const Headline = styled.h1`
+  font-family: var(--main-Headline);
   font-weight: 600;
   text-align: center;
   font-size: 1.3rem;

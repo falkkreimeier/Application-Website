@@ -22,6 +22,13 @@ html {
 
 p {
     line-height: 1.5;
+    font-size: 13px;
+    font-family: var( --main-font);
+}
+
+li {
+    line-height: 1.5;
+    font-family: var( --main-font);
 }
 
 body {

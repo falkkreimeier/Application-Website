@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components/macro";
 import Phone from "../Assets/phone_white_24dp.svg";
 import Mail from "../Assets/email_white_24dp.svg";
 
@@ -25,17 +25,14 @@ const Wrapper = styled.footer`
   color: black;
   border-radius: 5px;
   padding: var(--main-padding);
-
   @media only screen and (max-width: 375px) {
-    max-width: 375px;
+    max-width: 410;
   }
 `;
 const Text = styled.p`
-  margin: 0;
-  font-family: "Inter", sans-serif;
-
+  font-family: var(--main-font);
   @media only screen and (max-width: 800px) {
-    font-size: 10px;
+    font-size: 13px;
   }
 `;
 const Icons = styled.img`

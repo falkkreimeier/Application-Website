@@ -1,14 +1,14 @@
-import styled from "styled-components";
+import styled from "styled-components/macro";
 
 function CVContent() {
   return (
     <>
-      <Headline>Employment Hystory</Headline>
+      <Headline>Praktische Erfahrung</Headline>
       <SubHeadline>Trainee Web-Developer, neuefische</SubHeadline>
       <Text>
-        Aug 2021 - Nov201 <br /> Bootcamp zum Web-Developer mit den Inhalten:
-        <br /> HTML, CSS, JAVASCRIPT, REACT, GIT & GITHUB, NODE.JS, FIGMA,
-        MONGODB, MONGOOSE, STORYBOOK, EXPRESSJS <br /> Gesellenstück:
+        Aug 2021 - Nov 2021 <br /> Bootcamp zum Web-Developer mit den Inhalten:
+        <br /> HTML5, CSS3, JAVASCRIPT, REACT, GIT & GITHUB, NODE.JS, FIGMA,
+        MONGODB, MONGOOSE, STORYBOOK, EXPRESS.JS <br /> Gesellenstück:
         Entwicklung eines Onlineshops für meinen Lakritzschnaps.
       </Text>
 
@@ -17,14 +17,14 @@ function CVContent() {
         Aug 2020 - Feb 2021
         <List>
           <ListItem>
-            SEO Texterstellung von Blobs und Websites für Volov, Toyoto,
+            SEO Texterstellung von Blobs und Websites für Volvo, Toyota,
             Stadtwerke Solingen, Olaf Jansen Immobilien
           </ListItem>
           <ListItem>
             SEA Keyword Erstellung für Google Adwords Anzeigen
           </ListItem>
           <ListItem>
-            US Texte für die interne Untenehemenskommunikation
+            UX Texte für die interne Unternehmenskommunikation
           </ListItem>
           <ListItem>Social Media Pläne und Content-Entwicklung</ListItem>
           <ListItem>Kundenpräsentation</ListItem>
@@ -32,38 +32,18 @@ function CVContent() {
       </Text>
       <SubHeadline>Copywriter, Supersieben</SubHeadline>
       <Text>
-        Feb 2020 - Aug 2021
+        Feb 2020 - Aug 2020
         <List>
           <ListItem>
-            Kampanenentwicklung Funk, Print und Social Media für NETCOLOGNE und
+            Kampagnenentwicklung Funk, Print und Social Media für NETCOLOGNE und
             MAREDO
           </ListItem>
           <ListItem>SEO Texterstellung und Recherche für Blogbeiträge</ListItem>
           <ListItem>Social Media Pläne und Content-Entwicklung</ListItem>
-          <ListItem>SEA Keyword Erstellung für Google Adword Anzeigen</ListItem>
-          <ListItem>Kuindenmailings, Flyer und Brochürentexte</ListItem>
-        </List>
-      </Text>
-
-      <SubHeadline>Copywriter, Brand Lounge GmbH</SubHeadline>
-      <Text>
-        Feb 2017 - Jan 2020
-        <List>
           <ListItem>
-            Betreuung und Kampagnenentwicklung für große Foodmarken, wie:
-            COPPENRATH & WIESE, MILRAM, REINERT uvm.
+            SEA Keyword Erstellung für Google Adwords Anzeigen
           </ListItem>
-          <ListItem>
-            Von der Ideenentwicklung, Präsentationsaufbau, Kundenpräsentation
-            und finalen Umsetzung
-          </ListItem>
-          <ListItem>
-            TV Erfahrung: Idee, Storyboard, Präsentation und Dreh
-          </ListItem>
-          <ListItem>Verpackungsdruck</ListItem>
-          <ListItem>
-            Funk-Erfahrung: Idee, Sprechercasting, Produktion im Studio
-          </ListItem>
+          <ListItem>Kundenmailings, Flyer und Broschürentexte</ListItem>
         </List>
       </Text>
     </>
@@ -72,8 +52,7 @@ function CVContent() {
 
 const Headline = styled.h2`
   text-align: left;
-  margin: -2px 0px 0px 10px;
-  width: 300px;
+  margin: -10px 0px 0px 10px;
   font-size: 0.9rem;
   font-family: var(--main-Headline);
   border-bottom: 1px solid black;

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components/macro";
 
 function Skills() {
   return (
@@ -8,7 +8,7 @@ function Skills() {
         <ListItem>Web Developer</ListItem>
         <ListItem>Werbetexten</ListItem>
         <ListItem>Recherche</ListItem>
-        <ListItem>Ikea Schränke augbauen</ListItem>
+        <ListItem>Ikea Schränke aufbauen</ListItem>
         <ListItem>Grillen</ListItem>
       </List>
     </Wrapper>
@@ -16,12 +16,13 @@ function Skills() {
 }
 
 const Wrapper = styled.div`
+  width: 220px;
   grid-area: skills;
   background: white;
   border-radius: var(--border-radius);
   padding: var(--main-padding);
   @media only screen and (max-width: 800px) {
-    min-width: var(--main-width);
+    min-width: 420px;
   }
 `;
 
@@ -32,7 +33,10 @@ const Headline = styled.h2`
 `;
 
 const List = styled.ol`
-  margin: -10px 0 10px 0px;
+  margin: -10px 0 0 -30px;
+  @media only screen and(max-width: 800px) {
+    margin: -10px 0 10px 0px;
+  }
 `;
 
 const ListItem = styled.li`

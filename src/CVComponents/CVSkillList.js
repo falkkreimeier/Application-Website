@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components/macro";
 
 function CVSkillList() {
   return (
@@ -56,7 +56,7 @@ function CVSkillList() {
         MongoDB <br />
         <DotsBlack />
         <DotsBlack />
-        <DotsBlack />
+        <Dots />
         <Dots />
         <Dots />
       </ListItems>
@@ -64,7 +64,7 @@ function CVSkillList() {
         ExpressJS <br />
         <DotsBlack />
         <DotsBlack />
-        <DotsBlack />
+        <Dots />
         <Dots />
         <Dots />
       </ListItems>

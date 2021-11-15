@@ -16,14 +16,13 @@ const Wrapper = styled.a`
   align-items: center;
   background: white;
   border-radius: var(--border-radius);
-  padding: 10px;
-  margin-top: 5px;
-  transform: translateY(-4px);
+  padding: 15px;
+  transform: translateY(px);
   &:hover {
     background-color: lightgrey;
   }
   &:active {
-    transform: translateY(-0px);
+    transform: translateY(4px);
     transition: 0.1s;
   }
 `;

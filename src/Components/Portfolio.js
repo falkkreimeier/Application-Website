@@ -21,19 +21,25 @@ function Portfolio() {
 }
 
 const Wrapper = styled.div`
+  width: 220px;
   grid-area: portfolio;
   background: white;
   border-radius: var(--border-radius);
   padding: var(--main-padding);
-  min-width: var(--main-width);
+  @media only screen and (max-width: 800px) {
+    min-width: 420px;
+  }
 `;
 
 const Headline = styled.h2`
+  margin-top: 10px;
+  font-size: 1.3rem;
   font-family: var(--main-Headline);
+  font-size: 1.3rem;
 `;
 
 const LinkContainer = styled.div`
-  margin: 5px auto;
+  margin: 0 auto;
   width: 130px;
   text-decoration: none;
   border: 1px solid black;
@@ -57,7 +63,7 @@ const Link = styled.a`
 
 const Image = styled.img`
   max-height: 90px;
-  margin: 0px 0px 15px 0px;
+  margin: -5px 0px 15px 0px;
 `;
 
 export default Portfolio;
