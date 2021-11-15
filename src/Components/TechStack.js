@@ -30,7 +30,7 @@ const Wrapper = styled.div`
   color: black;
   border-radius: var(--border-radius);
   padding: var(--main-padding);
-  @media only screen and (max-width: 800px) {
+  @media (max-width: 800px) {
     min-height: 352px;
     background-color: white;
     color: white;
@@ -45,13 +45,13 @@ const Wrapper = styled.div`
 const Headline = styled.h2`
   margin-top: -10px;
   font-family: var(--main-Headline);
-  @media only screen and (max-width: 800px) {
+  @media (max-width: 800px) {
     margin-top: 20px;
   }
 `;
 
 const List = styled.ol`
-  @media only screen and (max-width: 800px) {
+  @media (max-width: 800px) {
     padding: 5px 0px 0px 35px;
     margin: -20px 0 20px 100px;
   }

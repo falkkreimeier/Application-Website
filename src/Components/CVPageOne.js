@@ -29,12 +29,12 @@ function CVPageOne() {
 
 const Wrapper = styled.section`
   max-width: 430px;
-  height: 100vh;
+  height: 700px;
   margin: 0 auto;
   background-color: black;
   display: grid;
   grid-template-areas: "details content1";
-  @media only screen and (max-width: 400px) {
+  @media (max-width: 400px) {
     max-width: 375px;
   }
 `;
@@ -62,7 +62,7 @@ const Image = styled.img`
 const Content = styled.div`
   background-color: white;
   grid-area: content1;
-  @media only screen and (max-width: 400px) {
+  @media (max-width: 400px) {
     max-width: 375px;
     height: 100%;
   }

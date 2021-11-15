@@ -22,12 +22,12 @@ function CVPageTwo() {
 
 const Wrapper = styled.section`
   max-width: 430px;
+  height: 700px;
   margin: 0 auto;
-  height: 100vh;
   display: grid;
   grid-gap: 0px;
   grid-template-areas: "details content2";
-  @media only screen and (max-width: 400px) {
+  @media (max-width: 400px) {
     max-width: 375px;
   }
 `;
@@ -37,7 +37,7 @@ const Details = styled.div`
   grid-area: details;
   border-radius: var(border-radius);
   background-color: lightgrey;
-  @media only screen and (max-width: 400px) {
+  @media (max-width: 400px) {
     max-width: 375px;
   }
 `;
