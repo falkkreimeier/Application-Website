@@ -5,7 +5,7 @@ function Skills() {
     <Wrapper>
       <Headline>Fähigkeiten</Headline>
       <List>
-        <ListItem>Web Entwicklung</ListItem>
+        <ListItem>Web-Entwicklung</ListItem>
         <ListItem>Werbetexten</ListItem>
         <ListItem>Marketing</ListItem>
         <ListItem>Organisation</ListItem>
