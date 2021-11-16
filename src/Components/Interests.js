@@ -8,7 +8,6 @@ function Interests() {
         <ListItem>Programmieren</ListItem>
         <ListItem>Bücher (Fantasy)</ListItem>
         <ListItem>Gaming</ListItem>
-        <ListItem>Neue Dinge erfinden, z.B. Lakritzel</ListItem>
         <ListItem>Hanteln schubsen</ListItem>
         <ListItem>Schreiben/Texten</ListItem>
       </List>

@@ -5,11 +5,11 @@ function Skills() {
     <Wrapper>
       <Headline>Fähigkeiten</Headline>
       <List>
-        <ListItem>Web Developer</ListItem>
+        <ListItem>Web Entwicklung</ListItem>
         <ListItem>Werbetexten</ListItem>
-        <ListItem>Recherche</ListItem>
+        <ListItem>Marketing</ListItem>
+        <ListItem>Organisation</ListItem>
         <ListItem>Ikea Schränke aufbauen</ListItem>
-        <ListItem>Grillen</ListItem>
       </List>
     </Wrapper>
   );

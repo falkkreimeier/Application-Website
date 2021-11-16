@@ -14,10 +14,9 @@ function Facts() {
           Voll auf Spur, aber immer auch ein kleines bisschen daneben.
         </ListItem>
       </List>
-      <Headline>Zitate:</Headline>
+      <Headline>Zitat:</Headline>
       <List>
         <ListItem>"Isst du das noch?!"</ListItem>
-        <ListItem>"Wer hat das Fettnäpfchen hier hingestellt?!"</ListItem>
       </List>
     </Wrapper>
   );
@@ -29,7 +28,7 @@ const Wrapper = styled.div`
   color: black;
   border-radius: var(--border-radius);
   padding: var(--main-padding);
-  @media only screen and (max-width: 800px) {
+  @media (max-width: 800px) {
     min-height: 352px;
     background-color: white;
     color: white;
@@ -54,7 +53,7 @@ const ListItem = styled.li`
   text-align: left;
   font-family: var(--main-font);
   margin-left: 20px;
-  @media only screen and (max-width: 800px) {
+  @media (max-width: 800px) {
     margin-left: 50px;
   }
 `;

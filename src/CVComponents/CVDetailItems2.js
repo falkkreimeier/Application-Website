@@ -12,7 +12,7 @@ function CVDetailItems2() {
       </Text>
       <SubHeadline>Schule</SubHeadline>
       <Text>
-        Geschwister Scholl Gesamtschule <br /> Abschluss: Abitur
+        Geschwister Scholl Gesamtschule <br /> Juli 2020: Abschluss: Abitur
       </Text>
     </>
   );
