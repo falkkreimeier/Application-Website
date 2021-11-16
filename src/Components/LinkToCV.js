@@ -21,7 +21,7 @@ const Wrapper = styled.section`
   grid-area: linktocv;
   border-radius: var(--border-radius);
   background-color: white;
-  @media only screen and (max-width: 800px) {
+  @media (max-width: 800px) {
     min-height: 352px;
     background-color: white;
     color: white;
@@ -39,7 +39,7 @@ const Headline = styled.h2`
   text-align: center;
   font-size: 1.2rem;
   padding-bottom: 10px;
-  @media only screen and (max-width: 800px) {
+  @media (max-width: 800px) {
     margin-top: 40px;
   }
 `;
@@ -48,7 +48,7 @@ const Text = styled.p`
   font-size: 17px;
   padding: 20px;
   font-family: var(--main-font);
-  @media only screen and (max-width: 800px) {
+  @media (max-width: 800px) {
     padding: 20px 70px;
     font-size: 13px;
   }
@@ -71,7 +71,7 @@ const LinkToCV1 = styled(Link)`
     transform: translateY(-0px);
     transition: 0.1s;
   }
-  @media only screen and (max-width: 800px) {
+  @media (max-width: 800px) {
     background-color: white;
     color: black;
     box-shadow: 0 14px 8px white;
