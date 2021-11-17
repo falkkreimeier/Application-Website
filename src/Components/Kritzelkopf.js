@@ -49,7 +49,7 @@ const Container = styled.div`
   text-align: center;
   font-family: "PT Serif", serif;
 
-  @media only screen and (max-width: 800px) {
+  @media (max-width: 800px) {
     width: 375px;
     grid-gap: 2px;
     grid-template-areas:

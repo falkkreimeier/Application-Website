@@ -14,7 +14,7 @@ const Wrapper = styled.header`
   color: black;
   border-radius: 5px;
   padding: var(--main-padding);
-  @media only screen and (max-width: 375px) {
+  @media (max-width: 375px) {
     max-width: 410;
   }
 `;

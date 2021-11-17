@@ -24,7 +24,7 @@ const Wrapper = styled.div`
   color: black;
   border-radius: var(--border-radius);
   padding: var(--main-padding);
-  @media only screen and (max-width: 800px) {
+  @media (max-width: 800px) {
     min-height: 352px;
     background-color: white;
     color: white;
@@ -39,7 +39,7 @@ export const Text = styled.p`
   font-size: 17px;
   font-family: var(--main-font);
   margin: -10px 20px 20px 20px;
-  @media only screen and (max-width: 800px) {
+  @media (max-width: 800px) {
     font-size: 13px;
     margin: -10px 20px 20px 20px;
     padding: 0 40px;
@@ -51,7 +51,7 @@ const Headline = styled.h2`
   text-align: center;
   font-size: 1.2rem;
   padding-bottom: 10px;
-  @media only screen and (max-width: 800px) {
+  @media (max-width: 800px) {
     margin: 35px 20px 20px 20px;
     color: white;
   }

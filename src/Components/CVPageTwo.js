@@ -22,8 +22,8 @@ function CVPageTwo() {
 
 const Wrapper = styled.section`
   max-width: 430px;
-  height: 700px;
-  margin: 0 auto;
+  height: 620px;
+  margin: 20px auto;
   display: grid;
   grid-gap: 0px;
   grid-template-areas: "details content2";

@@ -30,7 +30,7 @@ function CVPageOne() {
 const Wrapper = styled.section`
   max-width: 430px;
   height: 700px;
-  margin: 0 auto;
+  margin: 20px auto;
   background-color: black;
   display: grid;
   grid-template-areas: "details content1";
