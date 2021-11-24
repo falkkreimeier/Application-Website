@@ -40,7 +40,7 @@ function CVContent2() {
         Autovermietung
       </SubHeadline>
       <Text>
-        Okt 2001 - Apr 2003
+        Apr 2003 - Feb 2014
         <List>
           <ListItem>Mitarbeiterführung, Personalmanagement</ListItem>
           <ListItem>Fuhrparkplanung und Disposition</ListItem>
